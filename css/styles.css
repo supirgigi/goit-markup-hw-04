@@ -131,14 +131,10 @@ img {
 }
 
 .mail-icon {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
 }
 
 .tel-icon {
-  width: 10px;
-  height: 16px;
   margin-right: 10px;
 }
 
@@ -241,11 +237,6 @@ img {
   border-radius: 4px;
 }
 
-.feature-svg-1 {
-  width: 70px;
-  height: 70px;
-}
-
 .feature-heading {
   font-size: 14px;
   line-height: 1.14;
@@ -335,7 +326,8 @@ img {
   color: #afb1b8;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   color: var(--alternate-text-color);
   background-color: var(--brand-color);
   border-radius: 50%;
@@ -363,7 +355,8 @@ img {
   height: 60px;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   border: 1px solid var(--brand-color);
   color: var(--brand-color);
 }
@@ -413,7 +406,8 @@ img {
   margin-bottom: 30px;
 }
 
-.project-list-item:hover {
+.project-list-item:hover,
+.project-list-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
