@@ -30,6 +30,12 @@ img {
   display: block;
 }
 
+/* a {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+} */
+
 /* Контейнер */
 
 .container {
@@ -110,14 +116,15 @@ img {
 }
 
 .contact-link {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
   color: var(--text-color);
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
-  display: block;
-  padding: 32px 0;
 }
 
 .contact-link:hover,
@@ -125,14 +132,10 @@ img {
   color: var(--brand-color);
 }
 
-.header-contact {
-  display: flex;
-  align-items: center;
-}
-
 .mail-icon,
 .tel-icon {
   margin-right: 10px;
+  fill: currentColor;
 }
 
 /* Стили главной страницы */
@@ -152,7 +155,6 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1600px;
-  height: 600px;
   margin: 0 auto;
 }
 
@@ -348,8 +350,6 @@ img {
 
 .clients-icon {
   fill: currentColor;
-  width: 106px;
-  height: 60px;
 }
 
 .clients-link:hover,
@@ -403,8 +403,8 @@ img {
   margin-bottom: 30px;
 }
 
-.project-list-item:hover,
-.project-list-item:focus {
+.project-link:hover,
+.project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -427,6 +427,12 @@ img {
   padding: 20px 24px;
 }
 
+.project-link {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
 .project-heading {
   font-size: 18px;
   line-height: 2;
@@ -445,6 +451,11 @@ img {
 .footer {
   background-color: var(--background-color);
   padding: 60px 0;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -483,13 +494,8 @@ img {
   color: var(--brand-color);
 }
 
-.footer-container {
-  display: flex;
-}
-
 .footer-social {
   margin-left: 70px;
-  margin-top: 12px;
 }
 
 .footer-link {
