@@ -130,10 +130,7 @@ img {
   align-items: center;
 }
 
-.mail-icon {
-  margin-right: 10px;
-}
-
+.mail-icon,
 .tel-icon {
   margin-right: 10px;
 }
